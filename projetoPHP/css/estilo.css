@@ -1,0 +1,384 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:#272757;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#logo{
+    margin-left: 30px;
+    position: relative;
+    top: 20px;
+    
+}
+
+.menu{
+    position: relative;
+    bottom: 10px;
+    display: flex;
+    gap: 25px;
+    justify-content: flex-end;
+    margin-right: 60px;
+    bottom: 20px;
+    
+
+}
+
+.topo{
+    background:  #8686ac;
+    border-bottom: 10px solid;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#buscar{
+    position: relative;
+    bottom: 10px;
+    width: 400px;
+    height: 30px;
+    margin-left: 170px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border:1px solid  #8686ac;
+}
+
+#buscar input::placeholder{
+    color: black;
+}
+#promocao{
+    margin: 0 auto;
+    width:fit-content ;
+    background: #8686ac;
+    margin-top: 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.jogos{
+    margin-left: 30px;
+    margin-top: 40px;
+
+}
+
+.conteudo{
+    display: flex;
+    border-bottom: 3px solid white;
+    
+}
+
+.informacoes{
+    margin-left: 60px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    color: white;
+    
+}
+
+ul{
+    margin-left: 30px;
+    list-style: none;
+    color: white;
+}
+
+#aviso p{
+    margin-top: 25px;
+    margin-right: 40px;
+    color: #8686ac;
+    border-bottom: 1px solid #8686ac;
+    display: inline-block;
+}
+
+#aviso{
+     text-align: right;
+}
+
+
+.modos{
+    gap:20px
+}
+
+p{
+    color: white;
+}
+
+h2{
+    color: white;
+}
+
+h3{
+    color:white;
+}
+
+a:hover{
+    color: #272757;
+}
+
+.destaque{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.destaque h2{
+    margin-top: 20px;
+}
+
+#conselho{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 20px;
+    text-align: center;
+    color: black;
+    background: #8686ac;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+
+#conselho h1{
+    display: inline-block;
+}
+
+
+.cadastro{
+    background: #8686ac;  
+    margin-left: 400px;
+    margin-right: 400px;
+    text-align: center;
+    margin-top: 8%;
+    padding: 5px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+    
+}
+
+#preencher {
+    text-align: center;
+}
+
+
+.digite{
+    text-align: center;
+   
+}
+
+.digite input{
+    border: 1px solid #8686ac;
+}
+
+.entrar input{
+    background: #272757;
+    color: white;
+}
+
+.formulario{
+    margin-top: 10px;
+}
+
+.email{
+    margin-top: 8px;
+    
+}
+
+.senha{
+    margin-top: 8px;
+    
+}
+
+.login{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.semconta p{
+    color: #272757;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+ .nome input{
+    height: 25px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    text-align: center;
+    }
+
+.email input{
+    height: 25px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    text-align: center;
+    
+    }
+
+.senha input{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    text-align: center;
+}
+
+.semconta{
+    margin-top: 20px;
+    
+}
+
+#buscar input{
+    text-align: center;
+}
+
+.horarios {
+    width: fit-content;
+    margin: auto;
+}
+
+.horarios div {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.horarios h3 {
+    width: 80px;
+
+}
+
+.horarios p {
+    margin: 0;
+    margin-top: 10px ;
+}
+
+.funcionamento {
+    position: absolute;
+    top: 130px;
+    left: 800px;
+    text-align: center;
+}
+
+.funcionamento h1{
+    color:white
+
+}
+
+
+.entrar input{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.conta{
+    background: #8686ac; 
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 8%;
+    padding: 5px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+
+
+.conta h2{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white
+    
+}
+
+.conta input{
+margin-bottom: 10px;
+padding-left: 10px;
+border-top-left-radius: 8px; 
+border-top-right-radius: 8px;
+border-bottom-left-radius: 8px;
+border-bottom-right-radius: 8px;
+border: 1px solid #8686ac;
+}
+
+.botao{
+text-align: center;
+margin-top: 10px;
+
+color: white;
+}
+
+.genero{
+    
+    display: flex;
+    margin-left: 70px;
+    gap: 15px
+}
+
+.aviso{
+    font-size:x-small;
+    margin-left: 10px;
+    color: #272757;
+}
+
+.botao input{
+    background: #272757;
+    color: white;
+}
+
+.local a{
+    color: white;
+}
+
+
+.duvida{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.duvida h1{
+    color:white
+}
+
+.local h3{
+    margin-top: 10px;
+    margin-left: 70px;
+}
+
+.concluido{
+    background: #8686ac;  
+    margin-left: 400px;
+    margin-right: 400px;
+    text-align: center;
+    margin-top: 10%;
+    padding: 5px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.concluido a {
+    color: #272757;
+    margin-bottom: 20px;
+}
+
+.concluido h1{
+    color: white;
+}
